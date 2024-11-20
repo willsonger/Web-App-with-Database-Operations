@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Login Successful!";
+}
+
+<h1>Welcome Back!</h1>
+<p>You have successfully logged in. Enjoy exploring your account and using the application.</p>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Go to Dashboard</a>
+    <a asp-controller="Account" asp-action="Logout" class="btn btn-secondary">Log Out</a>
+</div>
